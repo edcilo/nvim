@@ -19,6 +19,9 @@ packer.startup(function(use)
     use 'editorconfig/editorconfig-vim'
     use 'github/copilot.vim'
 
+    -- appearance
+    use 'akinsho/nvim-bufferline.lua'
+
     -- theme
     use {
       'svrana/neosolarized.nvim',
