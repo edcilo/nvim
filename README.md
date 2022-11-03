@@ -1,12 +1,51 @@
+## Install neovim
+
+### Linux
+
+```bash
+apt install neovim
+```
+
+### MacOs
+
+```bash
+brew install neovim
+```
+
 ## Dependencies
 
 ```bash
+curl
+git
+nodejs
+npm
 python3
-node 17
-npm 8
+python3-pip
+unzip
+wget
+zip
 ```
 
+## Clone repositorie
+
 ```bash
-pip3 install pynvim
-npm i -g neovim
+git clone https://github.com/edcilo/nvim.git ~/.config/nvim
+```
+
+## Providers
+
+Configure path of providers in `~/.config/nvim/lua/providers`
+
+## Install plugins
+
+From vim in normal mode
+
+```bash
+:PackerInstall
+```
+
+Check health
+
+```bash
+:checkhealth
 ```
