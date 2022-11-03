@@ -5,7 +5,13 @@ if (not status) then
 end
 
 theme.setup({
-  style = "night"
+  style = "night",
+  transparent = false,
+  styles = {
+    comments = { italic = true },
+    functions = { italic = true },
+    keywords = { italic = true },
+  },
 })
 
 vim.cmd("colorscheme tokyonight")
