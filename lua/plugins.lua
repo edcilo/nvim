@@ -21,6 +21,10 @@ packer.startup(function(use)
     use 'norcalli/nvim-colorizer.lua'
     use 'windwp/nvim-autopairs'
     use 'lewis6991/gitsigns.nvim'
+    use {
+      'nvim-treesitter/nvim-treesitter',
+      run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    }
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
