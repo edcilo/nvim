@@ -17,6 +17,7 @@ packer.startup(function(use)
     -- ide
     use 'terrortylor/nvim-comment'
     use 'editorconfig/editorconfig-vim'
+    use 'github/copilot.vim'
 
     -- theme
     use {
