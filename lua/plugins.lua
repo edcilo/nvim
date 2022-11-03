@@ -22,6 +22,7 @@ packer.startup(function(use)
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
     use 'nvim-lualine/lualine.nvim'
+    use 'kyazdani42/nvim-web-devicons'
 
     -- theme
     use {
