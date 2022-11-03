@@ -18,6 +18,7 @@ packer.startup(function(use)
     use 'terrortylor/nvim-comment'
     use 'editorconfig/editorconfig-vim'
     use 'github/copilot.vim'
+    use 'norcalli/nvim-colorizer.lua'
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
