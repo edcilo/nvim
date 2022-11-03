@@ -23,6 +23,7 @@ packer.startup(function(use)
     use 'windwp/nvim-autopairs'
     use 'nvim-telescope/telescope-file-browser.nvim'
     use 'nvim-telescope/telescope.nvim'
+    use 'akinsho/toggleterm.nvim'
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
