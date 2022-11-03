@@ -20,6 +20,7 @@ packer.startup(function(use)
     use 'github/copilot.vim'
     use 'norcalli/nvim-colorizer.lua'
     use 'windwp/nvim-autopairs'
+    use 'lewis6991/gitsigns.nvim'
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
