@@ -8,6 +8,10 @@ local keymap = vim.keymap
 -- save buffer
 keymap.set('n', '<C-s>', ':w<CR>')
 
+-- quit buffer
+keymap.set('n', '<C-w>', ':q<CR>')
+keymap.set('n', '<C-q>', ':q!<CR>')
+
 -- select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
@@ -25,6 +29,12 @@ keymap.set('n', '<space>w', 'zM')
 
 -- new tab
 keymap.set('n', 'te', ':tabedit<Return>')
+
+-- insert tabline
+keymap.set('n', 'tt', 'gt>>')
+keymap.set('n', 'TT', 'gT<<')
+keymap.set('v', 'tt', '>gv')
+keymap.set('v', 'TT', '<gv')
 
 -- split window
 keymap.set('n', 'ss', ':split<Return><C-w>w')
