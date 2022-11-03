@@ -17,4 +17,10 @@ packer.startup(function(use)
     -- ide
     use 'terrortylor/nvim-comment'
     use 'editorconfig/editorconfig-vim'
+
+    -- theme
+    use {
+      'svrana/neosolarized.nvim',
+      requires = { 'tjdevries/colorbuddy.nvim' }
+    }
 end)
