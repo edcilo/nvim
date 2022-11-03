@@ -21,6 +21,7 @@ ts.setup {
     "dockerfile",
     "gitignore",
     "go",
+    "help",
     "html",
     "javascript",
     "json",
