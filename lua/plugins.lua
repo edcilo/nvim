@@ -28,7 +28,7 @@ packer.startup(function(use)
     use 'kyazdani42/nvim-web-devicons'
 
     -- theme
-    use "lunarvim/darkplus.nvim"
+    use 'folke/tokyonight.nvim'
     -- use {
     --   'svrana/neosolarized.nvim',
     --   requires = { 'tjdevries/colorbuddy.nvim' }
