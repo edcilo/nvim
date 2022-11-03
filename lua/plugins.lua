@@ -24,6 +24,7 @@ packer.startup(function(use)
     use 'nvim-telescope/telescope-file-browser.nvim'
     use 'nvim-telescope/telescope.nvim'
     use 'akinsho/toggleterm.nvim'
+    use 'Pocco81/auto-save.nvim'
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
