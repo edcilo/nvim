@@ -9,3 +9,7 @@ theme.setup({
 })
 
 vim.cmd("colorscheme tokyonight")
+
+-- update the colorscheme when the colorscheme is changed
+-- bufferline
+-- lualine
