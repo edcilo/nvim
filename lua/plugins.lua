@@ -19,12 +19,8 @@ packer.startup(function(use)
     use 'editorconfig/editorconfig-vim'
     use 'github/copilot.vim'
     use 'norcalli/nvim-colorizer.lua'
-    use 'windwp/nvim-autopairs'
     use 'lewis6991/gitsigns.nvim'
-    use {
-      'nvim-treesitter/nvim-treesitter',
-      run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
-    }
+    use 'windwp/nvim-autopairs'
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
@@ -32,8 +28,17 @@ packer.startup(function(use)
     use 'kyazdani42/nvim-web-devicons'
 
     -- theme
+    use "lunarvim/darkplus.nvim"
+    -- use {
+    --   'svrana/neosolarized.nvim',
+    --   requires = { 'tjdevries/colorbuddy.nvim' }
+    -- }
+
+    -- treesitter
     use {
-      'svrana/neosolarized.nvim',
-      requires = { 'tjdevries/colorbuddy.nvim' }
+      'nvim-treesitter/nvim-treesitter',
+      -- run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+      run = ':TSUpdate',
     }
+    -- use 'windwp/nvim-ts-autotag'
 end)
