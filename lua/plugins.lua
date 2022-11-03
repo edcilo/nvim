@@ -16,4 +16,5 @@ packer.startup(function(use)
 
     -- ide
     use 'terrortylor/nvim-comment'
+    use 'editorconfig/editorconfig-vim'
 end)
