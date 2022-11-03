@@ -27,3 +27,9 @@ cmp.setup({
     format = lspkind.cmp_format({ with_text = false, maxwidth = 50 })
   }
 })
+
+vim.cmd [[
+  set completeopt=menuone,noinsert,noselect
+  highlight! default link CmpItemKind CmpItemMenuDefault
+]]
+
