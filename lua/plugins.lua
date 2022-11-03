@@ -19,6 +19,7 @@ packer.startup(function(use)
     use 'editorconfig/editorconfig-vim'
     use 'github/copilot.vim'
     use 'norcalli/nvim-colorizer.lua'
+    use 'windwp/nvim-autopairs'
 
     -- appearance
     use 'akinsho/nvim-bufferline.lua'
