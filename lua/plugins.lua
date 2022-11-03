@@ -30,6 +30,7 @@ packer.startup(function(use)
     use 'akinsho/nvim-bufferline.lua'
     use 'nvim-lualine/lualine.nvim'
     use 'kyazdani42/nvim-web-devicons'
+    use 'lukas-reineke/indent-blankline.nvim'
 
     -- theme
     use 'folke/tokyonight.nvim'
