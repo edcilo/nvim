@@ -20,6 +20,7 @@ packer.startup(function(use)
     use 'github/copilot.vim'
     use 'norcalli/nvim-colorizer.lua'
     use 'lewis6991/gitsigns.nvim'
+    use 'TimUntersberger/neogit'
     use 'windwp/nvim-autopairs'
     use 'nvim-telescope/telescope-file-browser.nvim'
     use 'nvim-telescope/telescope.nvim'
