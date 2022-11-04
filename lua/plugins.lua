@@ -34,6 +34,7 @@ packer.startup(function(use)
     use 'kyazdani42/nvim-web-devicons'
     use 'lukas-reineke/indent-blankline.nvim'
     use 'glepnir/dashboard-nvim'
+    use 'folke/todo-comments.nvim'
 
     -- theme
     use 'folke/tokyonight.nvim'
