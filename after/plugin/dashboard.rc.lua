@@ -36,9 +36,15 @@ db.custom_center = {
     action = 'Telescope oldfiles',
   },
   {
+    icon = ' ',
+    desc = 'New file            ',
+    shortcut = '  ',
+    action = 'DashboardNewFile',
+  },
+  {
     icon = ' ',
     desc = 'Settings             ',
     shortcut = '  ',
     action = ':e ~/.config/nvim/init.lua',
-  }
+  },
 }
