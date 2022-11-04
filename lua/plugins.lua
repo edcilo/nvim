@@ -35,6 +35,7 @@ packer.startup(function(use)
     use 'lukas-reineke/indent-blankline.nvim'
     use 'glepnir/dashboard-nvim'
     use 'folke/todo-comments.nvim'
+    use 'yamatsum/nvim-cursorline'
 
     -- theme
     use 'folke/tokyonight.nvim'
