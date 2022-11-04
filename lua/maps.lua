@@ -41,17 +41,17 @@ keymap.set('n', 'ss', ':split<Return><C-w>w')
 keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
 
 -- move window
-keymap.set('n', '<Space>', '<C-w>w')
+keymap.set('n', '<space>f', '<C-w>w')
 keymap.set('', 'sh', '<C-w>h')
 keymap.set('', 'sk', '<C-w>k')
 keymap.set('', 'sj', '<C-w>j')
 keymap.set('', 'sl', '<C-w>l')
 
 -- Resize window
-keymap.set('n', '<C-w><left>', '<C-w><')
-keymap.set('n', '<C-w><right>', '<C-w>>')
-keymap.set('n', '<C-w><up>', '<C-w>+')
-keymap.set('n', '<C-w><down>', '<C-w>-')
+keymap.set('n', 'r<left>', '<C-w>8<')
+keymap.set('n', 'r<right>', '<C-w>8>')
+keymap.set('n', 'r<up>', '<C-w>+')
+keymap.set('n', 'r<down>', '<C-w>-')
 
 -- Increment/decrement
 keymap.set('n', '+', '<C-a>')
