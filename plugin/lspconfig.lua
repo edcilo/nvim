@@ -72,15 +72,15 @@ nvim_lsp.pyright.setup {
   capabilities = capabilities
 }
 
+nvim_lsp.tsserver.setup {
+  on_attach = on_attach,
+  filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
+  cmd = { "typescript-language-server", "--stdio" },
+  capabilities = capabilities
+}
+
 -- nvim_lsp.flow.setup {
 --   on_attach = on_attach,
---   capabilities = capabilities
--- }
-
--- nvim_lsp.tsserver.setup {
---   on_attach = on_attach,
---   filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },
---   cmd = { "typescript-language-server", "--stdio" },
 --   capabilities = capabilities
 -- }
 
