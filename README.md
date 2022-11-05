@@ -257,8 +257,6 @@ commit                    c
 :DiffviewOpen
 :DiffviewClose
 
--- lsp
-
 -- todo comments
 in file
 TODO:
