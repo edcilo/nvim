@@ -50,6 +50,80 @@ Check health
 :checkhealth
 ```
 
+## neovim maps
+
+```txt
+write                                             :w
+quit                                              :q
+quit forced                                       :q!
+write and quit                                    :wq
+write a new file                                  :w [filename]
+
+navegate
+up                                                k
+right                                             l
+down                                              j
+left                                              h
+
+insert mode                                       i
+append text after de cursor                       a
+append text to end of the  line                   A
+
+go to the start of the next word                  w
+go to the end of the next word                    e
+go to the start of the line                       0
+go to the end of the line                         $
+
+undo                                              u
+toggle changes on a line                          U
+undo the undo type                                Ctrl + r
+
+delete a word                                     dw
+delete to the end of the line                     d$
+delete 3 words                                    d3w
+delete a whole line                               dd
+delete 2 whole lines                              2dd
+
+move the cursor 2 words                           2w
+move the cursor to the end of 3 words             3e
+
+copy selected text                                y
+
+put previous deleted text after the cursor        p
+put previous deleted text before the cursor       P
+
+replace a character                               r[char]
+repleace to the end word                          ce
+replace n words                                   c3e
+replace to the end line                           c$
+replace over the chars                            R
+
+go to start of the file                           gg
+go to end of the file                             G
+go to the line                                    [n]G
+
+search a word                                     /[word] + enter
+search in a backward direction                    ?[word] + enter
+go to next result                                 n
+go to prev result                                 N
+go back where you came from                       Ctrl + o
+go to current position                            Ctrl + i
+go to match parenthesis                           %
+
+substitute text for the first result in a line    :s/[old]/[new] + enter
+substitute all concurrencies in same line         :s/[old]/[new]/g + enter
+substitute in a range of lines                    :[n],[n]s/[old]/[new]/g + enter
+substitute with a prompt                          :%s/[old]/[new]/gc + enter + y
+
+execute a external command                        :![command]
+
+selecting text                                    v + [navigation]
+write text selected in a new file                 v + [navigation] + :w + [filename]
+
+open up a line below the cursor                   o
+open up a line above the cursor                   O
+```
+
 ## Maps
 
 ```txt
@@ -101,21 +175,21 @@ Close suggest               Ctrl + e
 Comment current line        Shift + c
 
 -- telescope
-quit                      q
-insert mode               i
-new file                  shift + n
-go to parent directory    h
-list files                s + f
-find files                ; + f
-find text                 ; + r
-list open files           \ + \
-list tags                 ; + t
-resume telescope          ; + ;
-diagnostics               ; + e
+quit                        q
+insert mode                 i
+new file                    shift + n
+go to parent directory      h
+list files                  s + f
+find files                  ; + f
+find text                   ; + r
+list open files             \ + \
+list tags                   ; + t
+resume telescope            ; + ;
+diagnostics                 ; + e
 
 -- term
-open float term           , + t
-close term                Ctrl + d
+open float term             , + t
+close term                  Ctrl + d
 ```
 
 ## Commands
