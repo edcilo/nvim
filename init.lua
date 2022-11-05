@@ -1,6 +1,7 @@
 require('base')
 require('providers')
 require('highlights')
+require('commands')
 require('maps')
 require('plugins')
 
