@@ -126,6 +126,37 @@ open up a line above the cursor                   O
 
 ## Maps
 
+Register a custom map
+
+```lua
+vim.keymap.set(mode, lhs, rhs, opts)
+
+mode
+n -> normal mode
+i -> insert mode
+x -> visual mode
+s -> select mode
+v -> select and visual mode
+t -> terminal mode
+o -> operator mode
+'' -> equal to n + v + o
+
+lhs
+shortcut
+
+rhs
+vim command, lua function
+
+opts
+  * desc: description
+  * remap: boolean for a recursive boolean
+  * buffer: boolean for command run in a current buffer
+  * silent: boolean to show a message
+  * expr: boolean for generate a paramete
+```
+
+Custom maps
+
 ```txt
 save changes                Ctrl + s
 
@@ -133,6 +164,9 @@ quit buffer                 Ctrl + w
 quit forced                 Ctrl + q
 
 select all                  Ctrl + a
+
+copy to sytem clipboard     cp
+paste from system clipboard cv
 
 delete current character    x
 delete a word backwards     dw
@@ -221,6 +255,8 @@ commit                    c
 :DiffviewOpen
 :DiffviewClose
 
+-- lsp
+
 -- todo comments
 in file
 TODO:
@@ -231,8 +267,30 @@ FIX:
 WARNINGS:
 ```
 
+## Commands
+
+```lua
+:ReloadConfig
+```
+
+## Plugins
+
+Installation plugin directory: `:echo stdpath('data') . '/site/pack/packer'`
+
+- `opt`: load plugin optionally
+- `start`: load plugin when start
+
+## LSP
+
+List lsp
+
+```bash
+:help lspconfig-server-configurations
+```
+
 ## Info
 
-[neovimcraft](https://neovimcraft.com)
-[awesome-neovim](https://github.com/rockerBOO/awesome-neovim#terminal-integration)
-[VimAwesome](https://vimawesome.com)
+- [neovim opts](https://neovim.io/doc/user/options.html)
+- [neovimcraft](https://neovimcraft.com)
+- [awesome-neovim](https://github.com/rockerBOO/awesome-neovim#terminal-integration)
+- [VimAwesome](https://vimawesome.com)
