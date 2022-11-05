@@ -6,20 +6,25 @@ local keymap = vim.keymap
 -- vim.api.nvim_create_user_command('W', 'w !sudo tee > /dev/null %', {})
 
 -- save buffer
-keymap.set('n', '<C-s>', ':w<CR>')
+keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save buffer' })
 
 -- quit buffer
-keymap.set('n', '<C-w>', ':q<CR>')
-keymap.set('n', '<C-q>', ':q!<CR>')
+keymap.set('n', '<C-w>', ':q<CR>', { desc = 'Quit buffer' })
+keymap.set('n', '<C-q>', ':q!<CR>', { desc = 'Quit buffer without saving' })
 
 -- select all
-keymap.set('n', '<C-a>', 'gg<S-v>G')
+keymap.set('n', '<C-a>', 'gg<S-v>G', { desc = 'Select all' })
+
+-- copy to system clipboard
+keymap.set({'n', 'x'}, 'cp', '"+y', { desc = 'Copy to system clipboard' })
+-- paste from system clipboard
+keymap.set({'n', 'x'}, 'cv', '"+p', { desc = 'Paste from system clipboard' })
 
 -- delete current character
-keymap.set('n', 'x', '"_x')
+keymap.set('n', 'x', '"_x', { desc = 'Delete current character' })
 
 -- delete a word backwards
-keymap.set('n', 'dw', 'vb"_d')
+keymap.set('n', 'dw', 'vb"_d', { desc = 'Delete a word backwards' })
 
 -- toggle the current fold
 keymap.set('n', '<space><space>', 'za')
