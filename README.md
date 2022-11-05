@@ -28,6 +28,14 @@ wget
 zip
 ```
 
+Node dependencies
+
+```bash
+npm install -g \
+  @fsouza/prettierd \
+  neovim
+```
+
 ## Clone repositorie
 
 ```bash
