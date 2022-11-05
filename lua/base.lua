@@ -8,6 +8,7 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 
 vim.opt.title = true
+vim.opt.mouse = 'a'
 
 vim.opt.autoindent = true
 vim.opt.smartindent = true
@@ -17,8 +18,9 @@ vim.opt.breakindent = true
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
+vim.opt.smartcase = true -- Don't ignore case with capitals
 
 vim.opt.foldmethod = 'indent'
 vim.opt.foldlevel = 99
