@@ -15,8 +15,10 @@ brew install neovim
 ## Dependencies
 
 ```bash
+composer
 curl
 git
+luarocks
 nodejs
 npm
 python3

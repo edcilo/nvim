@@ -32,7 +32,7 @@ vim.opt.cmdheight = 1
 vim.opt.laststatus = 2
 vim.opt.scrolloff = 10
 
-vim.opt.shell = 'bash'
+vim.opt.shell = 'zsh'
 vim.opt.backupskip = { '/tmp/*', '/private/tmp/*' }
 vim.opt.inccommand = 'split'
 vim.opt.backspace = { 'start', 'eol', 'indent' }
