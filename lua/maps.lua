@@ -15,6 +15,9 @@ keymap.set('n', '<C-q>', ':q!<CR>', { desc = 'Quit buffer without saving' })
 -- select all
 keymap.set('n', '<C-a>', 'gg<S-v>G', { desc = 'Select all' })
 
+-- clear search highlights
+keymap.set('n', '<leader>l', ':nohl<CR>', { desc = 'Clear search highlights' })
+
 -- copy to system clipboard
 keymap.set({'n', 'x'}, 'cp', '"+y', { desc = 'Copy to system clipboard' })
 -- paste from system clipboard

@@ -63,6 +63,7 @@ Check health
 ## neovim maps
 
 ```txt
+reload current buffer                             :e
 write                                             :w
 quit                                              :q
 quit forced                                       :q!
@@ -174,6 +175,8 @@ quit buffer                 Ctrl + w
 quit forced                 Ctrl + q
 
 select all                  Ctrl + a
+
+clear search highlihgts     , + l
 
 copy to sytem clipboard     cp
 paste from system clipboard cv
