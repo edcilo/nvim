@@ -47,6 +47,7 @@ keymap.set('v', 'TT', '<gv')
 -- split window
 keymap.set('n', 'ss', ':split<Return><C-w>w')
 keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
+keymap.set('n', 'se', '<C-w>=')
 
 -- move window
 keymap.set('n', '<space>f', '<C-w>w')

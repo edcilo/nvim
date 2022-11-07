@@ -36,6 +36,7 @@ packer.startup(function(use)
     use 'glepnir/dashboard-nvim'
     use 'folke/todo-comments.nvim'
     use 'yamatsum/nvim-cursorline'
+    use 'szw/vim-maximizer'
 
     -- theme
     use 'folke/tokyonight.nvim'

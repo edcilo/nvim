@@ -200,7 +200,9 @@ move to left window         sh
 move to up window           sk
 move to down window         sj
 move to right window        sl
+resize equal width          se
 
+maxime windows              r + m
 resize window to left       r + left arrow
 resize window to right      r + right arrow
 resize window to up         r + up arrow
