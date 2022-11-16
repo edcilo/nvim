@@ -12,6 +12,9 @@ keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save buffer' })
 keymap.set('n', '<C-w>', ':q<CR>', { desc = 'Quit buffer' })
 keymap.set('n', '<C-q>', ':q!<CR>', { desc = 'Quit buffer without saving' })
 
+-- close file
+keymap.set('n', '<leader>w', ':bd<CR>', { desc = 'Close file' })
+
 -- select all
 keymap.set('n', '<C-a>', 'gg<S-v>G', { desc = 'Select all' })
 

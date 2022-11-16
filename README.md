@@ -173,6 +173,7 @@ save changes                Ctrl + s
 
 quit buffer                 Ctrl + w
 quit forced                 Ctrl + q
+quit file                   , + w
 
 select all                  Ctrl + a
 
