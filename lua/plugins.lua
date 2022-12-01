@@ -68,4 +68,5 @@ packer.startup(function(use)
     use 'williamboman/mason.nvim'           -- Easily install and manage LSP servers, DAP servers, linters and formatters
     use 'williamboman/mason-lspconfig.nvim' -- bridge mason with the lspconfig plugin
     use "MunifTanjim/prettier.nvim"         -- Prettier for Neovim
+    use 'fatih/vim-go'                      -- Go language support for Vim
 end)

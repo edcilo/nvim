@@ -84,6 +84,13 @@ nvim_lsp.sumneko_lua.setup {
   capabilities = capabilities
 }
 
+nvim_lsp.gopls.setup {
+  on_attach = on_attach,
+  filetypes = { "go", "gomod" },
+  cmd = { "gopls", "serve" },
+  capabilities = capabilities
+}
+
 -- nvim_lsp.flow.setup {
 --   on_attach = on_attach,
 --   capabilities = capabilities
